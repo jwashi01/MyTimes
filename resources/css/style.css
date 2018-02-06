@@ -1,0 +1,37 @@
+header {
+  font-family:Verdana;
+  font-size: 14px;
+  font-weight:bold;
+  border-bottom: 1px solid black;
+  padding-bottom:10px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+}
+
+
+header .navigation {
+  display:inline-block;
+}
+
+.navigation {
+  padding:0 20px;
+}
+
+.logo {
+  display:flex;
+  padding:0 20px;
+  align-items:center;
+}
+
+.MyTimes {
+  color:MediumAquamarine;
+  display:inline-block;
+  margin:12px;
+}
+
+.ablue {
+  color:black;
+  margin:12px;
+}
