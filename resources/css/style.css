@@ -1,37 +1,169 @@
+
+  /*Header Section*/
+
 header {
-  font-family:Verdana;
+  font-family: Verdana;
   font-size: 14px;
-  font-weight:bold;
-  border-bottom: 1px solid black;
-  padding-bottom:10px;
-  display:flex;
+  font-weight: bold;
+  display: flex;
+  position:fixed;
+  background-color:white;
+  width:100%;
+  z-index:5;
   flex-direction: row;
-  justify-content: space-between;
   align-items:center;
-}
-
-
-header .navigation {
-  display:inline-block;
-}
-
-.navigation {
-  padding:0 20px;
+  justify-content: space-between;;
+  border-bottom: 2px solid black;
+  padding:20px;
 }
 
 .logo {
-  display:flex;
-  padding:0 20px;
-  align-items:center;
-}
-
-.MyTimes {
+  display: flex;
   color:MediumAquamarine;
-  display:inline-block;
-  margin:12px;
+  align-items:center;
+  padding-left:20px;
 }
 
-.ablue {
+.navigation {
+  display:flex;
+  justify-content: space-around;
   color:black;
-  margin:12px;
+  margin: 10px;
+  padding-right:60px;
+}
+
+.black {
+  color:black;
+  margin: 10px;
+}
+
+    /* Main Section */
+main {
+  display:flex;
+  position:relative;
+  top:90px;
+  justify-content: space-around;
+
+}
+
+        /* Left Column */
+.leftcolumn {
+  display:flex;
+  flex-direction: column;;
+  width: 630px;
+}
+
+
+ .MotherofThree {
+   display:flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   flex-direction:column;
+   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+   height:300px;
+   color:white;
+   overflow:hidden;
+   font-family: Georgia;
+   font-size: 40px;
+   font-weight:bold;
+}
+
+.flexgrow{
+  flex-grow:2;
+  flex-shrink:2;
+}
+
+.MonumentVally{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.Vacation h2 {
+  font-family: Georgia;
+  color: black;
+  flex-grow:2;
+}
+
+.Vacation p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.Earth {
+  display:inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  height:300px;
+  color:white;
+  overflow:hidden;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight:bold;
+}
+
+/*
+.Earth span {
+  align-items:center;
+}*/
+
+.Burger p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.ResearchShows {
+  display:flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  height:300px;
+  color:white;
+  overflow:hidden;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight:bold;
+}
+
+            /*Middle Column*/
+.middlecolumn {
+  display:flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.ActionStar p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.CatControl {
+   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+   height:300px;
+   color:white;
+   overflow:hidden;
+   font-family: Georgia;
+   font-size: 30px;
+   font-weight:bold;
+}
+
+.Brooklyn {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+          /*Right Column*/
+.rightcolumn {
+  display:flex;
+  flex-direction: column;
+  width: 240px;
+}
+
+.NewsBites {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }

@@ -1,0 +1,18 @@
+
+    /* Main Section*/
+
+main {
+  display:flex;
+}
+
+.leftcolumn {
+  width: 630px;
+}
+
+.middlecolumn {
+  width: 300px;
+}
+
+.rightcolumn {
+  width: 240px;
+}
