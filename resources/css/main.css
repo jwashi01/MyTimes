@@ -2,7 +2,7 @@
     /* Main Section*/
 
 main {
-  display:flex;
+  display:flex
 }
 
 .leftcolumn {
@@ -15,4 +15,11 @@ main {
 
 .rightcolumn {
   width: 240px;
+}
+
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
 }
