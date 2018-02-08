@@ -55,11 +55,11 @@ header {
 }
 
 .navigation {
-  display:flex;
-  justify-content: space-around;
-  color:black;
-  margin: 10px;
-  padding-right:60px;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    margin: 10px;
+    padding-right: 60px;
 }
 
 .MyTimes {
